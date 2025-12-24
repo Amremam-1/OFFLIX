@@ -1,6 +1,6 @@
 export default function OfflineHero() {
   return (
-    <section className="relative h-125 overflow-hidden" dir="rtl">
+    <section className="relative min-h-125 overflow-hidden" dir="rtl">
       {/* Full Dark Layer */}
       <div className="absolute inset-0 bg-[#0f172a]" />
 

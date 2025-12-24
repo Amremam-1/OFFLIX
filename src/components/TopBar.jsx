@@ -41,7 +41,10 @@ const TopBar = () => {
           </ul>
 
           <span className="opacity-60">|</span>
-          <CurrentDate locale="en-US" className="text-sm text-gray-400" />
+          <CurrentDate
+            locale="en-US"
+            className="text-sm text-gray-400 max-[768px]:hidden"
+          />
         </div>
 
         {/* Info */}

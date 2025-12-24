@@ -38,9 +38,13 @@ const Hero = () => {
 
       {/* المحتوى */}
       <div className="relative z-20 flex  justify-center h-full text-white text-4xl font-bold  overflow-hidden">
-        <div className="w-225 flex items-center justify-between">
+        <div className="w-225 flex items-center justify-between max-[768px]:flex-col max-[768px]:justify-center max-[768px]:gap-5 max-[768px]:items-start max-[768px]:w-fit py-10">
           <div className="animate-spin-slow">
-            <img src="/images/global.png" alt="global" />
+            <img
+              src="/images/global.png"
+              alt="global"
+              className="max-[768px]:w-40"
+            />
           </div>
 
           <div className="animate-text  flex flex-col gap-2 items-center text-black font-mulish">
