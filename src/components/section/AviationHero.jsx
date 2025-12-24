@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next"
+
 const AviationHero = () => {
+  const { t } = useTranslation()
   return (
     <section className="relative  overflow-hidden">
       {/* Decorative line */}
@@ -7,32 +10,31 @@ const AviationHero = () => {
         {/* Text Content */}
         <div className=" text-end">
           <p className="text-orange-500 font-semibold mb-4">
-            احتياجات المسافرين
+            {t("travelersNeeds")}
           </p>
 
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6">
-            أفضل وكالة لتوفير خدمات
+            {t("bestAgency")}
             <br />
-            <span className="text-orange-500">الإنترنت</span> للقطاع الجوي
+            <span className="text-orange-500">{t("internet")}</span>{" "}
+            {t("aviationSector")}
           </h1>
 
           <ul className="text-gray-500 my-6 shape3 pr-2">
-            <li className="">
-              . توفير تجربة ترفيهية استثنائية، خاصة خلال الرحلات الطويلة •
-            </li>
-            <li>. محتوى متنوع يناسب جميع الفئات والأعمار •</li>
+            <li className="">{t("entertainmentExperience")}•</li>
+            <li>{t("diverseContent")}•</li>
           </ul>
 
           {/* Features */}
           <div className="flex gap-10 justify-end my-6 font-semibold">
             <div className="flex items-center gap-3">
-              <p>إنترنت آمن بالكامل</p>
+              <p>{t("secureInternet")}</p>
               <div className="flex items-center justify-center bg-[#f4911e] rounded-lg w-8 h-8">
                 <img src="/public/images/ab-5.png" alt="" />
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <p>بث بجودة تتجاوز 4K و 8 K</p>
+              <p>{t("ultraStreaming")}</p>
               <div className="flex items-center justify-center bg-[#336EF9] rounded-lg w-8 h-8">
                 <img src="/public/images/ab-5.png" alt="" />
               </div>
@@ -42,13 +44,13 @@ const AviationHero = () => {
           {/* Checklist */}
           <ul className="space-y-3 text-sm text-gray-600">
             <li className="flex items-center gap-2 justify-end">
-              <span>سلسلة من الأنظمة اليدوية وشبه اليدوية</span>
+              <span>{t("manualSystems")}</span>
               <span className="w-5 h-5 flex items-center justify-center rounded-full bg-blue-500 text-white text-xs">
                 ✓
               </span>
             </li>
             <li className="flex items-center gap-2 justify-end">
-              <span>البناء يختلف عن المجالات الأخرى</span>
+              <span>{t("differentStructure")}</span>
               <span className="w-5 h-5 flex items-center justify-center rounded-full bg-orange-500 text-white text-xs">
                 ✓
               </span>
@@ -64,11 +66,7 @@ const AviationHero = () => {
           <div className="absolute -right-5 top-1/2 -translate-y-1/2 h-64 w-1 bg-orange-400 hidden md:block  animate-top-down" />
 
           <div className="">
-            <img
-              src="/images/hero1.jpg"
-              alt=""
-              className="mt-1.5"
-            />
+            <img src="/images/hero1.jpg" alt="" className="mt-1.5" />
           </div>
         </div>
       </div>

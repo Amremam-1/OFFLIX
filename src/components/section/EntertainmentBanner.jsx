@@ -1,12 +1,23 @@
+import { useTranslation } from "react-i18next"
+
 export default function EntertainmentBanner() {
+  const { t, i18n } = useTranslation()
+
   return (
-    <section className="relative py-24 overflow-hidden" dir="rtl">
+    <section
+      className="relative py-24 overflow-hidden"
+      dir={i18n.language === "ar" ? "rtl" : "ltr"}
+    >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#1b2432] via-[#1f2937] to-[#111827]" />
 
-      {/* Dots decoration (left) */}
-      <div className="absolute left-16 top-1/2 -translate-y-1/2">
-        <div className="grid grid-cols-6 gap-2 rotate-360">
+      {/* Dots decoration */}
+      <div
+        className={`absolute top-1/2 -translate-y-1/2 ${
+          i18n.language === "ar" ? "left-16" : "right-16"
+        }`}
+      >
+        <div className="grid grid-cols-6 gap-2">
           {Array.from({ length: 36 }).map((_, i) => (
             <span
               key={i}
@@ -16,9 +27,11 @@ export default function EntertainmentBanner() {
         </div>
       </div>
 
-      {/* Curved line (top right) */}
+      {/* Curved line */}
       <svg
-        className="absolute top-6 right-6"
+        className={`absolute top-6 ${
+          i18n.language === "ar" ? "right-6" : "left-6"
+        }`}
         width="160"
         height="80"
         viewBox="0 0 160 80"
@@ -35,9 +48,12 @@ export default function EntertainmentBanner() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed text-white">
-          استمتع بمشاهدة <span className="text-orange-400">مواسم كاملة</span>
+          {t("entertainmentBanner.line1")}{" "}
+          <span className="text-orange-400">
+            {t("entertainmentBanner.highlight")}
+          </span>
           <br />
-          وبرامج مميزة أثناء الرحلة
+          {t("entertainmentBanner.line2")}
         </h2>
       </div>
     </section>

@@ -2,10 +2,12 @@ import Header from "./Header"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useTranslation } from "react-i18next"
 
 gsap.registerPlugin(ScrollTrigger)
 
 const Hero = () => {
+  const { t, i18n } = useTranslation()
   useGSAP(() => {
     gsap.fromTo(
       ".animate-text",
@@ -47,17 +49,15 @@ const Hero = () => {
             />
           </div>
 
-          <div className="animate-text  flex flex-col gap-2 items-center text-black font-mulish">
+          <div className="animate-text text-center  flex flex-col gap-2 items-center text-black font-mulish">
             <h2 className="text-[18px] text-[#FFB302] mb-3 shape1">
-              تقنيـــة محلية تجربــة عالمية
+              {t("tagline")}
             </h2>
             <h4 className="animate-text font-mulish text-2xl">
               <span className="mr-2 uppercase text-[#007cf0]">offlix</span>
-              نظام
+              {i18n.language === "en" ? "system" : "نظام"}
             </h4>
-            <h4 className="text-3xl animate-text shape2">
-              الترفيهي المبتكر لتحسين تجربة السفر الجوية
-            </h4>
+            <h4 className="text-3xl animate-text">{t("airTravelTagline")}</h4>
           </div>
         </div>
       </div>

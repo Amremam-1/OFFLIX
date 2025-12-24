@@ -1,0 +1,152 @@
+{
+  "address": "Abdulrahman Al-Dakhil Street, Jeddah",
+  "tagline": "Local Technology, Global Experience",
+  "airTravelTagline": "Innovative Entertainment to Enhance the Air Travel Experience",
+  "travelersNeeds": "Travelers Needs",
+  "bestAgency": "The Best Agency for Providing Services",
+  "aviationSector": "For the Aviation Sector",
+  "internet": "Internet",
+  "entertainmentExperience": "Providing an exceptional entertainment experience, especially during long-haul flights.",
+  "diverseContent": "Diverse content suitable for all groups and ages.",
+  "ultraStreaming": "Streaming quality exceeding 4K and 8K",
+  "secureInternet": "Fully secure internet",
+  "manualSystems": "A series of manual and semi-automated systems",
+  "differentStructure": "The structure differs from other sectors",
+  "offlineHero": {
+    "label": "Proposed Solution",
+    "title": "Internal Media System",
+    "subtitle": "To Deliver an Efficient Entertainment Experience",
+    "point1": "Operates through a closed network inside the aircraft without internet access.",
+    "point2": "Accessible by scanning a simple QR code."
+  },
+  "offlineFeatures": {
+    "label": "How the System Works",
+    "highlight": "Features of",
+    "title": "Internal Services",
+    "internetSecurity": {
+      "title": "Internet & Cybersecurity",
+      "items": [
+        "Providing a secure and reliable internet connection.",
+        "Protecting the network from cyber threats.",
+        "Monitoring suspicious activities."
+      ]
+    },
+    "powerSource": {
+      "title": "Power Source",
+      "items": [
+        "Compatible with standard power sources available on aircraft.",
+        "Requires no structural or electrical modifications.",
+        "Easy to install without affecting core aircraft systems."
+      ]
+    },
+    "accessMethod": {
+      "title": "Access Method",
+      "items": [
+        "Each passenger receives a unique QR code.",
+        "Scanning opens an interactive content interface."
+      ]
+    },
+    "infrastructure": {
+      "title": "Infrastructure",
+      "items": [
+        "A local router acting as an internal content streaming server.",
+        "Content categorized by class (Business, Economy)."
+      ]
+    }
+  },
+  "passengerChallenges": {
+    "label": "Airline Challenges",
+    "title": "Challenges & Needs of",
+    "highlight": "Passengers",
+    "items": [
+      "High cost of traditional entertainment systems.",
+      "Dependence on internet connectivity, which may not always be available.",
+      "The need for new competitive advantages to attract customers."
+    ],
+    "feedback": "Feedback"
+  },
+  "entertainmentBanner": {
+    "line1": "Enjoy watching",
+    "highlight": "full seasons",
+    "line2": "and exclusive programs during your flight"
+  },
+
+  "providedServices": {
+    "label": "System Advantages and Services Provided to Airlines",
+    "title": "Services We Provide",
+    "hoverText": "Additional details or a clear call to action can be displayed here on interaction.",
+    "cards": {
+      "inflightStore": {
+        "title": "In-Flight E-Commerce Store",
+        "desc": [
+          "Passengers can order directly from the store.",
+          "Seat number is used for easy delivery."
+        ]
+      },
+      "revenueGrowth": {
+        "title": "Revenue Growth",
+        "desc": [
+          "Offering premium paid content.",
+          "Selling advertising spaces."
+        ]
+      },
+      "costReduction": {
+        "title": "Operational Cost Reduction",
+        "desc": [
+          "No need for in-flight internet.",
+          "Easy maintenance and updates."
+        ]
+      },
+      "passengerExperience": {
+        "title": "Enhanced Passenger Experience",
+        "desc": [
+          "Diverse content offerings.",
+          "Increased customer satisfaction."
+        ]
+      },
+      "technicalAspects": {
+        "title": "Technical Aspects",
+        "desc": [
+          "Secure and certified local server.",
+          "Fully compliant with aviation safety regulations.",
+          "Easy maintenance and quick updates during aircraft downtime."
+        ]
+      },
+      "additionalRevenue": {
+        "title": "Additional Revenue Streams",
+        "desc": [
+          "Advertisements within the media library.",
+          "Paid content services.",
+          "In-flight e-commerce store."
+        ]
+      },
+      "updateMechanism": {
+        "title": "Update Mechanism",
+        "desc": [
+          "Based on agreements with production and distribution companies.",
+          "Ensuring regularly updated, secure, and fresh content."
+        ]
+      },
+      "mediaLibraryContent": {
+        "title": "Media Library Content",
+        "desc": [
+          "Entertainment (latest movies and series).",
+          "Cultural and educational (e-books, documentaries).",
+          "Religious (dedicated Islamic content).",
+          "Kids (safe and age-appropriate content)."
+        ]
+      }
+    }
+  },
+  "footer": {
+    "news": "News",
+    "description": "OFFLIX is an innovative entertainment system designed to enhance the air travel experience.",
+    "address": "Abdulrahman Al-Dakhil Street, Al-Nahda District, Jeddah",
+    "country": "23523, Saudi Arabia",
+    "email": "company.maher@gmail.com",
+    "phone": "920006943",
+    "copyright": "©2024 www.maherco.com",
+    "rights": "All Rights Reserved.",
+    "group": "MBN GROUP ©"
+  }
+}

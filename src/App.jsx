@@ -7,6 +7,8 @@ import OfflineHero from "./components/section/OfflineHero"
 import PassengerChallenges from "./components/section/PassengerChallenges"
 import ProvidedServices from "./components/section/ProvidedServices"
 import "./index.css"
+
+
 const App = () => {
   return (
     <div>
